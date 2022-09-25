@@ -1,3 +1,4 @@
+this is a modded fork of Joepool's repo in hopes to add Mac OS 12 support the opencore pkg has been updated from 0.7.5---->0.8.4 amoung other tweaks that will be outlined in my releases
 # Hackintosh-HP-Z420-OpenCore
 ### Do not just copy this EFI and expect it to work
 Hackintosh EFI for HP Z420 Workstation - Tested on Catalina and Big Sur   
@@ -30,7 +31,7 @@ Before you first boot with 0.6.6, reset your NVRAM from the opencore boot picker
 If you use OpenCanopy (Graphical boot picker) you will also have to update your Resources folder, which can be done from [here](https://github.com/acidanthera/OcBinaryData).   
 # My System
 Intel Xeon E5-1650 v2 CPU  
-Nvidia Quadro K4000 GPU   
+Radeon RX 590 (Gigabyte)
 32GB ECC DDR3   
 # Issues
 USB3 - The Z420 uses a Texas Instruments USB 3 Controller which is unsupported in MacOS - I have solved this by using [This PCIe expansion card](https://www.amazon.co.uk/gp/product/B00JEVLEFQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) which can fix the two front pannel USB3 ports and give two extra USB3 ports in the rear. The Unsupported USB 3.0 controller means that your Install USB must be connected to a USB 2.0 port. If it is connected to a USB 3.0 port you will get the error `Still waiting for root device`    
